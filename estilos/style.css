@@ -39,12 +39,19 @@ section#login{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
 
+    transition: width 0.3s, heigth 0.3s;
+    
+
 }section#login div#imagem{
+    display: block;
     background: url(../imagens/pexels-ryutaro-tsukata-5473224.jpg) #F2D399 no-repeat;
     background-size: cover;
+    background-position: top;
     height: 200px;
 }
 section#login div#formulario{
-    padding: 10px;
+
     display: block;
+    padding: 10px;
+    
 }
