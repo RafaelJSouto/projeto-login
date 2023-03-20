@@ -1,15 +1,46 @@
 @charset "UTF-8";
 
+/*
+Paletas de cores
+
+vermelho vivo #F21313
+bege #F2D399
+amarelo #F2E857
+roxo #401430
+vinho #A60F55
+*/
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #401430, #A60F55);
+    }
     section#login {
         width: 90vw;
     }
     section#login > div#imagem {
         float: left;
         width: 30%;
-    }
-    section#login >  div#imagem{
         height: 100%;
+    }
+    section#login >  div#formulario{
+       float: right;
+       width: 70%;
+    }
+}
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #401430, #A60F55);
+    }
+    section#login {
+        width: 970px;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
     }
 }
