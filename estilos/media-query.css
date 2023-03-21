@@ -26,6 +26,9 @@ vinho #A60F55
        float: right;
        width: 70%;
     }
+    div#formulario > p{
+        font-size: 1.1em;
+    }
 }
 @media screen and (min-width: 992px) {
     body{
@@ -42,5 +45,11 @@ vinho #A60F55
     section#login > div#formulario{
         float: right;
         width: 70%;
+    }
+    div#formulario > p{
+        font-size: 1.1em;
+    }
+    div#formulario > h1 {
+        font-size: 2em;
     }
 }
