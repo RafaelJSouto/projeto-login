@@ -16,6 +16,7 @@ vinho #A60F55
     }
     section#login {
         width: 90vw;
+        height: 295px;
     }
     section#login > div#imagem {
         float: left;
@@ -27,7 +28,15 @@ vinho #A60F55
        width: 70%;
     }
     div#formulario > p{
-        font-size: 1.1em;
+        font-size: 1em;
+        margin: 10px 0px 18px;
+    }
+    form > input[type=submit]{
+        height: 40px;
+    }
+    form > a.botao{
+        height: 40px;
+        padding: 10px;
     }
 }
 @media screen and (min-width: 992px) {
@@ -36,6 +45,7 @@ vinho #A60F55
     }
     section#login {
         width: 970px;
+        height: 350px;
     }
     section#login > div#imagem{
         float: left;
@@ -47,9 +57,18 @@ vinho #A60F55
         width: 70%;
     }
     div#formulario > p{
-        font-size: 1.1em;
+        font-size: 1em;
+        margin: 10px 0px 25px;
+        
     }
     div#formulario > h1 {
         font-size: 2em;
+    }
+    form > input[type=submit]{
+        height: 40px;
+    }
+    form > a.botao{
+        height: 40px;
+        padding: 10px;
     }
 }
